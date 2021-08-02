@@ -1,6 +1,6 @@
 package za.ac.cput.Repository;
 
-import za.ac.cput.Entity.Book;
+import za.ac.cput.entity.Book;
 
 import java.util.*;
 

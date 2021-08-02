@@ -1,6 +1,6 @@
 package za.ac.cput.Service.impl;
 
-import za.ac.cput.Entity.User;
+import za.ac.cput.entity.User;
 import za.ac.cput.Service.IService;
 
 import java.util.Set;

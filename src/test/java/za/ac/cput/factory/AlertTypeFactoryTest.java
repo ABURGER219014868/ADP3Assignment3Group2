@@ -9,7 +9,7 @@ package za.ac.cput.Factory;
 import org.junit.jupiter.api.Assert;
 import org.junit.jupiter.api.Before;
 import org.junit.jupiter.api.Test;
-import za.ac.cput.Entity.AlertType;
+import za.ac.cput.entity.AlertType;
 
 import java.util.UUID;
 

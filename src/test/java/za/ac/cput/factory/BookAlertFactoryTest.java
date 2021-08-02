@@ -4,10 +4,7 @@ import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.BookAlert;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Timeout;
-import za.ac.cput.Entity.BookAlert;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;

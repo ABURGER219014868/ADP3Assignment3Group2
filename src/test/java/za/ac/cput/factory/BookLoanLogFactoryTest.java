@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import za.ac.cput.entity.BookLoanLog;
 import org.junit.jupiter.api.Timeout;
-import za.ac.cput.Entity.BookLoanLog;
 
 import java.util.concurrent.TimeUnit;
 

@@ -12,15 +12,16 @@ public class UserRole {
     private UserRole(){}
 
     private UserRole(Builder builder){
-        this.userID = builder.userID;
-        this.roleID = builder.roleID;
-        this.userRoleID = builder.userRoleID;
+        this.userID=builder.userID;
+        this.roleID=builder.roleID;
+        this.userRoleID=builder.userRoleID;
+        }
 
-    }
 
-    public String getUserRoleID() {
+    public String getUserRoleID(){
         return userRoleID;
-    }
+        }
+
 
     public static class Builder{
         private String userID, roleID,userRoleID;

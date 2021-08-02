@@ -1,6 +1,6 @@
-package za.ac.cput.Repository;
+package za.ac.cput.repository;
 
-import za.ac.cput.Entity.UserLogin;
+import za.ac.cput.entity.UserLogin;
 
 import java.util.*;
 

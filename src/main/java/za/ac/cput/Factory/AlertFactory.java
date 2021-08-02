@@ -6,7 +6,7 @@
 
 package za.ac.cput.Factory;
 
-import za.ac.cput.Entity.Alert;
+import za.ac.cput.entity.Alert;
 
 public class AlertFactory {
 

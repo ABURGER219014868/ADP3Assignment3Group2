@@ -1,6 +1,6 @@
-package za.ac.cput.repository;
+package za.ac.cput.Repository;
 
-import za.ac.cput.Entity.Role;
+import za.ac.cput.entity.Role;
 
 import java.util.Set;
 /*  IRoleRepository.java

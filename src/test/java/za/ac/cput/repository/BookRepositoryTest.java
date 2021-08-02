@@ -1,7 +1,7 @@
 package za.ac.cput.RepositoryTest;
 
 import org.junit.jupiter.api.Test;
-import za.ac.cput.Entity.Book;
+import za.ac.cput.entity.Book;
 import za.ac.cput.Factory.BookFac;
 import za.ac.cput.Repository.BookRepository;
 

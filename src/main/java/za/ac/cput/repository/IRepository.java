@@ -1,6 +1,4 @@
-package za.ac.cput.Repository;
-
-import za.ac.cput.Entity.Book;
+package za.ac.cput.repository;
 
 public interface IRepository<C,cd> {
 public String cd = null;

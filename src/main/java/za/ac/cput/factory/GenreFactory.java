@@ -1,4 +1,4 @@
-package za.ac.cput.factory;
+package za.ac.cput.Factory;
 import za.ac.cput.entity.Genre;
 import za.ac.cput.util.GenericHelper;
 /*
@@ -9,7 +9,7 @@ import za.ac.cput.util.GenericHelper;
  */
 public class GenreFactory
 {
-    public static Genre createGenre(String name)
+    public static Genre createGenre(Genre name)
     {
         // Name of the book genre
         String generatedNumber= GenericHelper.generateId();

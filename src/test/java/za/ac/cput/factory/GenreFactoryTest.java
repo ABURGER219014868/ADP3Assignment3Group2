@@ -3,7 +3,7 @@
  * @author Plamedie Bitota Bukasa (219260532)
  * Date: 10th June 2021
  */
-package za.ac.cput.factory;
+package za.ac.cput.Factory;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

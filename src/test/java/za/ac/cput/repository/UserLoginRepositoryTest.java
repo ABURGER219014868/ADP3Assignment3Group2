@@ -2,8 +2,7 @@ package za.ac.cput.RepositoryTest;
 
 
 import org.junit.jupiter.api.Test;
-import za.ac.cput.Entity.Book;
-import za.ac.cput.Entity.UserLogin;
+import za.ac.cput.entity.UserLogin;
 import za.ac.cput.Factory.UserLoginFac;
 import za.ac.cput.Repository.UserLoginRepository;
 

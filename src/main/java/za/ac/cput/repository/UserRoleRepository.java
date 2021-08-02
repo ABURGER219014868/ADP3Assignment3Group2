@@ -1,7 +1,6 @@
 package za.ac.cput.repository;
 
-import za.ac.cput.Entity.Role;
-import za.ac.cput.Entity.UserRole;
+import za.ac.cput.entity.UserRole;
 
 import java.util.HashSet;
 import java.util.Set;
