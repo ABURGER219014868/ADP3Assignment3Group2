@@ -9,15 +9,15 @@ import za.ac.cput.util.GenericHelper;
  */
 public class GenreFactory
 {
-    public static Genre createGenre(Genre name)
+    public static Genre createGenre(Genre genre)
     {
         // Name of the book genre
         String generatedNumber= GenericHelper.generateId();
         // getting a generated ID for the specific genre
         //creating or adding another genre
-        Genre genre=new Genre.Builder()
+        Genre g =new Genre.Builder()
                 .setGenreId(generatedNumber)
-                .setName(name)
+               // .setName()
                 .build();
         return genre;
     }

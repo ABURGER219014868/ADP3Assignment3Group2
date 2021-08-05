@@ -28,15 +28,16 @@ public class GenreRepository implements IGenreRepository
         return repository;
     }
 
+    @Override
 
-    public Genre create(Genre genre)
+    public Genre Create(Genre genre)
     {
         Genre g= GenreFactory.createGenre(genre);
         this.genreDB.add(genre);
         return genre;
     }
-
-    public Genre read (String genreId)
+   @Override
+    public Genre Read (String genreId)
     {
         Genre genre=null;
         for (Genre g: genreDB)
@@ -50,9 +51,10 @@ public class GenreRepository implements IGenreRepository
         }
         return genre;
     }
-    public Genre update  (Genre genre)
+    @Override
+    public Genre Update  (Genre genre)
     {
-        Genre oldGenre=read(genre.getGenreId());
+        Genre oldGenre=Read(genre.getGenreId());
         if(oldGenre!=null)
         {
            genreDB.remove(oldGenre);
@@ -62,12 +64,14 @@ public class GenreRepository implements IGenreRepository
         return genre;
     }
 
-
-    public void delete (String genreId)
+  @Override
+    public boolean Delete (String genreId)
     {
-        Genre genreToDelete = read(genreId);
+        Genre genreToDelete = Read(genreId);
         if(genreToDelete!= null)
+            return false;
         genreDB.remove(genreToDelete);
+            return true;
     }
 
     @Override
@@ -75,23 +79,5 @@ public class GenreRepository implements IGenreRepository
         return null;
     }
 
-    @Override
-    public Genre Create(Genre genre) {
-        return null;
-    }
 
-    @Override
-    public Genre Read(String CD) {
-        return null;
-    }
-
-    @Override
-    public Genre Update(Genre genre) {
-        return null;
-    }
-
-    @Override
-    public boolean Delete(String CD) {
-        return false;
-    }
 }
