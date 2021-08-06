@@ -28,13 +28,11 @@ public class GenreRepository implements IGenreRepository
         return repository;
     }
 
-    @Override
-
     public Genre Create(Genre genre)
     {
-        Genre g= GenreFactory.createGenre(genre);
-        this.genreDB.add(genre);
-        return genre;
+        Genre g= GenreFactory.createGenre("SCIFI");
+        this.genreDB.add(g);
+        return g;
     }
    @Override
     public Genre Read (String genreId)

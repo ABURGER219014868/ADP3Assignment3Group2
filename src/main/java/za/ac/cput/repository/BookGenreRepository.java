@@ -32,7 +32,7 @@ public class BookGenreRepository implements IBookGenreRepository
 
     public BookGenre Create(BookGenre bookgenre)
     {
-        BookGenre g= BookGenreFactory.createBookGenre(bookgenre);
+        BookGenre g= BookGenreFactory.createBookGenre("romance");
         this.bookGenreDB.add(bookgenre);
         return bookgenre;
     }

@@ -17,6 +17,11 @@ public class BookGenre
 
     }
 
+    public BookGenre()
+    {
+
+    }
+
     @Override
     public String toString() {
         return "BookGenre{" +

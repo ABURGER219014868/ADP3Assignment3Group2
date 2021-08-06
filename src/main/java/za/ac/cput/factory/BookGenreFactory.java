@@ -10,7 +10,7 @@ import za.ac.cput.util.GenericHelper;
  */
 public class BookGenreFactory {
 
-        public static BookGenre createBookGenre(BookGenre bookgenre)
+        public static BookGenre createBookGenre(String bookgenre)
         {
             // generating ids for book genre and bookgenre
             String generatedNumber= GenericHelper.generateId();

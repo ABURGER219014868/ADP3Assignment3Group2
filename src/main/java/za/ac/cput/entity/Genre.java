@@ -9,6 +9,7 @@ package za.ac.cput.entity;
 public class Genre
 
 {
+
     private String genreId,name;
 
     private Genre(Builder builder)
@@ -24,8 +25,9 @@ public class Genre
                 '}';
     }
 
-    public String getGenreId() {
-        return genreId;
+    public  String getGenreId()
+    {
+           return genreId;
     }
 
     public static class Builder
@@ -55,6 +57,7 @@ public class Genre
             this.name=genre.name;
             return this;
         }
+
 
     }
 

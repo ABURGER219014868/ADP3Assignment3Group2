@@ -44,7 +44,7 @@ public class BookRepository implements IBookRepository{
 
     @Override
     public Book Update(Book book) {
-        Book oldBook = Read(book.getBookId());
+        Book oldBook = Read((String) book.getBookId());
         if(oldBook != null) {
             bookDB.remove(oldBook);
             bookDB.add(book);

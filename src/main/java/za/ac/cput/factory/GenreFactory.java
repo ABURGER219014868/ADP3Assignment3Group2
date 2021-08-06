@@ -9,7 +9,7 @@ import za.ac.cput.util.GenericHelper;
  */
 public class GenreFactory
 {
-    public static Genre createGenre(Genre genre)
+    public static Genre createGenre (String genre)
     {
         // Name of the book genre
         String generatedNumber= GenericHelper.generateId();
@@ -17,8 +17,8 @@ public class GenreFactory
         //creating or adding another genre
         Genre g =new Genre.Builder()
                 .setGenreId(generatedNumber)
-               // .setName()
+                . setName("Romance")
                 .build();
-        return genre;
+        return g;
     }
 }
